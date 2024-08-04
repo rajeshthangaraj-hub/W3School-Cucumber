@@ -1,0 +1,16 @@
+<!DOCTYPE xml>
+<configuration>
+    <theme>standard</theme>
+    <encoding>utf-8</encoding>
+    <protocol>http</protocol>
+    <offlineMode>true</offlineMode>
+    <documentTitle>W3School Test Execution Report</documentTitle>
+    <reportName>W3School Test Report</reportName>
+    <timeStampFormat>MM/dd/yyyy hh:mm:ss a</timeStampFormat>
+    <css>
+        /* Custom CSS goes here */
+    </css>
+    <js>
+        /* Custom JS goes here */
+    </js>
+</configuration>

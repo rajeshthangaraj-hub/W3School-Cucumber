@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: Validate the Editor page
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 83.21 s <<< FAILURE! -- in Validate the Editor page
+Validate the Editor page.Validate the editor result -- Time elapsed: 45.87 s <<< FAILURE!
+java.lang.AssertionError: expected:<3> but was:<4>
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.failNotEquals(Assert.java:835)
+	at org.junit.Assert.assertEquals(Assert.java:647)
+	at org.junit.Assert.assertEquals(Assert.java:633)
+	at stepDefinitions.ValidateEditor.validate_the_result_output(ValidateEditor.java:39)
+	at ✽.validate the result in output(file:///C:/Users/rthangar/OneDrive%20-%20Capgemini/Documents/W3School/w3school/src/test/java/features/Editor.feature:13)
+
+Validate the Editor page.Validate the Theme -- Time elapsed: 37.34 s <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[]> but was:<[light]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at stepDefinitions.ChangeTheme.editor_page_should_turn_light(ChangeTheme.java:40)
+	at ✽.editor page should turn light(file:///C:/Users/rthangar/OneDrive%20-%20Capgemini/Documents/W3School/w3school/src/test/java/features/Editor.feature:20)
+
