@@ -42,6 +42,15 @@ public class BuyCourse {
 	@Then("click on paypal button")
 	public void click_paypal_btn() throws InterruptedException {
 		
-		depIn.pageObjectManager.getShoppingCartPage().clickCheckOutBtn();
+		depIn.pageObjectManager.getShoppingCartPage().switchToFrame();
+
+	}
+	
+	
+	
+	@Then("Scroll to CheckOut button")
+	public void scroll_to_checkout() {
+		
+		depIn.pageObjectManager.getShoppingCartPage().scrollToCheckOut();
 	}
 }

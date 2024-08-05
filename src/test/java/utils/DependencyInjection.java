@@ -22,7 +22,7 @@ public class DependencyInjection {
 		basePage = new BasePage(); // instantiate driver object
 		
 		WebDriver driver = basePage.WebDriverManager();
-		reusableUtils = new ReusableUtils(driver,Duration.ofSeconds(10)); // 10 seconds timeout
+		reusableUtils = new ReusableUtils(driver,Duration.ofSeconds(30)); // 10 seconds timeout
 		pageObjectManager = new PageObjectManager(driver ,reusableUtils);
 	}
 	

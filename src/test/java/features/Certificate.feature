@@ -21,5 +21,6 @@ When click on payment plans under purchase options
 And choose "3 months, $70/ month" plan
 And click on buy now button
 Then user should navigate to "Your Shopping Cart — W3Schools.com" page
+And  Scroll to CheckOut button
 And click on paypal button  
 

@@ -35,9 +35,8 @@ public class EditorPage {
 		
 		String str = result.getText().trim();
 		
-		int actual = Integer.parseInt(str);
-		
-		return actual;
+		return Integer.parseInt(str);
+
 	}
 	
     public WebElement getResultElement() {

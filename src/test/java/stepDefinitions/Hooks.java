@@ -28,11 +28,11 @@ public class Hooks {
 		this.depIn = depIn;
 	}
 	
-	@After
-	public void afterScenario() throws IOException {
-		
-		depIn.basePage.WebDriverManager().quit();
-	}
+//	@After
+//	public void afterScenario() throws IOException {
+//		
+//		depIn.basePage.WebDriverManager().quit();
+//	}
 	
 	@AfterStep
 	public void addScreenshot(Scenario scenario) throws IOException {
