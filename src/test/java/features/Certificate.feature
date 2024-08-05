@@ -5,13 +5,13 @@ Background:
 Given user is on home page
 When user click on Certificate menu
 
-#Scenario: verify java and python certification
-#
-#When Click on "Php" Certificate
-#Then user should land on "Java Certification Exam — W3Schools.com" page
-#When user switch back to home page
-#And Click on "Python" Certificate
-#Then user should land on "Python Certification Exam — W3Schools.com" page
+Scenario: verify java and python certification
+
+When Click on "Php" Certificate
+Then user should land on "Java Certification Exam — W3Schools.com" page
+When user switch back to home page
+And Click on "Python" Certificate
+Then user should land on "Python Certification Exam — W3Schools.com" page
 
 Scenario: Buy a Data Analytics Certification
 
